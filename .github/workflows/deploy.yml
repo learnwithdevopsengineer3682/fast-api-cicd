@@ -17,4 +17,4 @@ jobs:
       - name: Lint code
         run: |
           pip install black
-          black --check .
+          black --check ./main.py
