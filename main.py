@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def hello():
-    return {"msg": "It works! Auto-deployed by GitHub Actions"}
+    return {"msg": "It works! Subscribe to my channel if you like this video"}
 
 @app.get("/health")
 def health():
